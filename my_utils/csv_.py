@@ -70,6 +70,7 @@ class HandleCSV:
 
 if __name__ == '__main__':
     var = HandleCSV()
+    print(var.read_as_dict())
     var1 = var.task_one()
     print(var1)
     var2 = var.task_two()
